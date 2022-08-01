@@ -17,9 +17,14 @@ npm install
 npm run start
 ```
 
-## 🌐 Localhost
+## 🌐 Endpoint
+### Local:
 ```
 http://localhost:3000/repositories
+```
+### Prod:
+```bash
+https://node-github-api-repo.herokuapp.com/repositories
 ```
 
 ## Body Request - POST
