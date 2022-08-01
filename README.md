@@ -1,4 +1,4 @@
-# API REST - Search Repositories GitHub
+# API REST - Search GitHub Repositories
 ### Api developed in Node.js for queries from github repositories.
 
 ## Tecnologies
