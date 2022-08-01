@@ -27,8 +27,8 @@ class FindRepositories{
             const resultFilter = filterLanguage(response.data, language);
             
             if (response.length == 0 || resultFilter.length == 0){
-                return res.status(500).json({
-                    error: 'There are not C# repositories'
+                return res.status(404).json({
+                    error: `There are not ${language} repositories`
                 })
             }
             
